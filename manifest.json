@@ -1,0 +1,20 @@
+{
+  "name": "妈妈再也不用担心我的 MacBook 发热了计划 2（非官方）",
+  "description": "妈妈计划用于解决在看视频网站时 MacBook 发热严重的问题。使用 <video> 来替换原来的 Flash 播放器。",
+  "version": "0.0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": { "512": "mama2_512.png" },
+  "options_page": "options.html",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+    "default_title": "召唤妈妈",
+    "default_icon": "mama2_512.png"
+  },
+
+  "manifest_version": 2
+}
